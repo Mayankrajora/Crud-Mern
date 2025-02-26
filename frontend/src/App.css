@@ -1,0 +1,130 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.title {
+  color: #333;
+  margin-bottom: 15px;
+  font-family: fantasy;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.phone-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.phone-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.phone-name {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.phone-number {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.update-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .input,
+  .btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .phone-card {
+    padding: 10px;
+  }
+
+  .phone-name {
+    font-size: 16px;
+  }
+
+  .phone-number {
+    font-size: 14px;
+  }
+}
