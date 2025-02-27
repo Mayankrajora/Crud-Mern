@@ -6,12 +6,8 @@ MERN - Mongodb, express, react, node
 
 # for backend
 
-npm install
-npm i express
-npm i dotenv
-npm i cors
-npm i mongoose
-npm i nodemon
+npm install,
+npm i express dotenv cors mongoose nodemon
 
 # for frontend
 
