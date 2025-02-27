@@ -1,22 +1,11 @@
 {
-  "name": "crud-app",
-  "version": "1.0.0",
-  "description": "This is Crud-App",
-  "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mayankrajora/Crud-Mern.git"
-  },
+  
   "author": "Mayank",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mayankrajora/Crud-Mern/issues"
-  },
-  "homepage": "https://github.com/Mayankrajora/Crud-Mern#readme",
   "dependencies": {
     "concurrently": "^9.1.2"
   }
