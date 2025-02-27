@@ -2,6 +2,8 @@
 
 This is a CRUD app using MERN Stack.
 
+MERN - Mongodb, express, react, node
+
 # for backend
 
 npm install
