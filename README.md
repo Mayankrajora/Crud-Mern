@@ -20,4 +20,5 @@ npm i axios
 
 # to start
 
-run - npm start
+concurrently
+npm start
