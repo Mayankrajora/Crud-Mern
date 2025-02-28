@@ -11,6 +11,6 @@ const PhoneBookSchema = new mongoose.Schema({
   },
 });
 
-const PhoneBook = mongoose.model("PhoneBook", PhoneBookSchema);
+const PhoneBook = mongoose.model("phoneBook", PhoneBookSchema);
 
 module.exports = PhoneBook;
