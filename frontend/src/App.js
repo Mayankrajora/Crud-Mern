@@ -13,7 +13,7 @@ function App() {
         res.data.data.phoneNumbers.map((entry) => ({ ...entry, newPhone: "" }))
       );
     });
-  }, []);
+  }, [name,phone]);
 
   const addNewNumber = () => {
     Axios.post("http://localhost:8000/add-phone", { name, phone }).then(() => {
